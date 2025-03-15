@@ -1,21 +1,28 @@
 package main.kotlin
 
 fun main() {
-    val hp = PC("HP", "Pro Desk")
+    // Создаём экземпляр класса Arrays
+    val arrays = Arrays()
 
-    //Создадим инстанс нащего Notebook
-    val mac = Notebook("Apple", "Mac Pro M1")
+    arrays.mutableListConstruction()
 
-    //Инстанс телефона
-    val iPhone = Phone("Apple", "17")
-
-//    val portables = listOf(mac, iPhone)
+//    // Вызываем нужный метод
+//    arrays.immutableListConstruction()
+//    val hp = PC("HP", "Pro Desk")
 //
-//    portables.forEach{it.work()}
-
-    val allDevice = listOf(hp, mac, iPhone)
-
-    allDevice.forEach{it.deviseInfo()}
+//    //Создадим инстанс нащего Notebook
+//    val mac = Notebook("Apple", "Mac Pro M1")
+//
+//    //Инстанс телефона
+//    val iPhone = Phone("Apple", "17")
+//
+////    val portables = listOf(mac, iPhone)
+////
+////    portables.forEach{it.work()}
+//
+//    val allDevice = listOf(hp, mac, iPhone)
+//
+//    allDevice.forEach{it.deviseInfo()}
 
 //    hp.installDocker()
 //
