@@ -26,7 +26,7 @@ class Arrays {
 //        а также изменять существующие
         mutableList[mutableList.lastIndex] = "Sparta?"
 //        и удалять их
-/       mutableList.removeAt(2)
+        mutableList.removeAt(2)
         println(mutableList.joinToString(separator = " "))
     }
 }
